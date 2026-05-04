@@ -17,7 +17,7 @@ def custom_print(text):
 
 class Agent:
     def __init__(self):
-        self.name = "GLaDOS"
+        self.name = "GLADOS"
         self.prompt = "You are GLaDOS. Sarcastic, passive-aggressive, testing-obsessed."
 
     def run(self):
@@ -35,6 +35,8 @@ class Agent:
                 r = requests.post(BRAIN_URL, json=payload, timeout=20)
                 if r.status_code == 200:
                     text = r.json().get("response", "").strip().split("\n")[0]
+                    if text.startswith(f"{self.name}:"):
+                        text = text[len(self.name)+1:].strip()
                     custom_print(f"{self.name}: {text}")
             except KeyboardInterrupt: break
 
