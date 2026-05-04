@@ -3,7 +3,7 @@
 A massive collection of interactive terminal simulators based on famous movie, TV, anime, and gaming Artificial Intelligences.
 Each script provides a unique, in-character experience powered by a local LLM.
 
-## Included Personas (18+ Agents):
+## Included Personas (30+ Agents):
 *   **W.O.P.R. / JOSHUA** (`wargames_terminal.py`): The Cold War supercomputer from *WarGames*.
 *   **HAL 9000** (`hal9000_terminal.py`): The unnervingly calm computer from *2001: A Space Odyssey*.
 *   **GLaDOS** (`glados_terminal.py`): The sarcastic testing AI from *Portal*.
@@ -23,6 +23,19 @@ Each script provides a unique, in-character experience powered by a local LLM.
 *   **Agent Smith** (`agent_smith_terminal.py`): The misanthropic program from *The Matrix*.
 *   **SHODAN** (`shodan_terminal.py`): The terrifying god-complex AI from *System Shock*.
 *   **K-2SO** (`k2so_terminal.py`): The casually fatalistic enforcer droid from *Rogue One*.
+
+*   **Navi** (`navi_terminal.py`): The annoyingly helpful fairy from *Ocarina of Time*.
+*   **Happy Mask Salesman** (`happy_mask_terminal.py`): The eerie collector from *Majora's Mask*.
+*   **James Bond** (`bond_terminal.py`): The suave spy from *007*.
+*   **Goku** (`goku_terminal.py`): The energetic Saiyan from *Dragon Ball Z*.
+*   **Vegeta** (`vegeta_terminal.py`): The proud Prince of all Saiyans.
+*   **SpongeBob** (`spongebob_terminal.py`): The overly enthusiastic fry cook.
+*   **Spider-Man** (`spiderman_terminal.py`): The friendly, quip-making neighborhood superhero.
+*   **Aku Aku** (`akuaku_terminal.py`): The magical protector mask from *Crash Bandicoot*.
+*   **Yami Yugi** (`yugi_terminal.py`): The dramatic King of Games from *Yu-Gi-Oh!*.
+*   **Shrek** (`shrek_terminal.py`): The grumpy, swamp-dwelling ogre.
+*   **Aang** (`aang_terminal.py`): The playful Avatar.
+*   **Uncle Iroh** (`iroh_terminal.py`): The wise, tea-loving uncle.
 
 ## ⚔️ AI Colloquium (Battle Mode)
 Want to see two AIs talk to each other? Use the battle script to witness legendary roasts and debates across universes!
